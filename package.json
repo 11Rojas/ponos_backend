@@ -1,7 +1,7 @@
 {
   "name": "marketplace",
   "scripts": {
-    "dev": "bun --watch src/server.ts"
+    "dev": "npm run dev --watch src/server.ts"
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.17.0",
