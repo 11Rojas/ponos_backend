@@ -1,7 +1,7 @@
 {
   "name": "marketplace",
-  "scripts": {
-    "dev": "npm run dev --watch src/server.ts"
+ "scripts": {
+    "start": "npx tsx index.ts"
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.17.0",
