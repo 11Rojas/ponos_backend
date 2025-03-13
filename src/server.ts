@@ -13,7 +13,7 @@ const app = new Hono();
 const server = serve(
   {
     fetch: app.fetch,
-    port: 3001
+    port: 3000
   },
   (info) => {
     console.log(`Server corriendo: http://${info.address}:${info.port}`)
