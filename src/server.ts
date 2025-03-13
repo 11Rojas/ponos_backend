@@ -28,7 +28,7 @@ app.get('/', (c) => {
 
 // Configuración de CORS
 app.use('*', cors({
-  origin: 'http://localhost:5173',  // Cambia a la URL de tu frontend en producción
+  origin: 'https://ponos.app',  // Cambia a la URL de tu frontend en producción
   credentials: true,  // Permite que las cookies sean enviadas
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowHeaders: ['Content-Type', 'Authorization'],
